@@ -1,2 +1,2 @@
 # Lenovo-M710Q-I3-7100/i5-7500T-Hackintosh-EFI-flies
-这是联想M710Q迷你小主机的黑苹果EFI文件，经我测试下来这个EFI文件可以启动MacOS10.15（Catalina）-11（BigSur）-12（Monterey,最完美的版本，功能基本都能用）-13（Ventura），本EFI适用于i3-7100和i5-7500T等7代Intel处理器，其他7代U也可以试试。
+这是联想M710Q迷你小主机的黑苹果EFI文件，经我测试下来这个EFI文件可以启动MacOS10.15（Catalina）-11（BigSur）-12（Monterey,最完美的版本，功能基本都能用）-13（Ventura），本EFI适用于i3-7100和i5-7500T等7代Intel处理器，其他7代U也可以试试。注意：这个文件没有睿频补丁（CPUFriend.kext），四核四线程及以上的 intel CPU 可以选择加， Monterey 及以下可以不加，Ventura 得加，因为我测试下来 Monterey 及以下，风扇声音很小，Ventura 不加睿频补丁 i5-7500T 风扇声音特别大。如果你的第 7 代 i5/i7 遇到进入系统后风扇狂转，声音巨大，请加入睿频补丁（后续我会打包个上传）。目前来说这个 EFI 已经是很完美了，在 Monterey 系统下基本上完美使用。
